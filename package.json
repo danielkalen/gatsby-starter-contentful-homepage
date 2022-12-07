@@ -5,6 +5,7 @@
   "repository": "https://github.com/danielkalen/gatsby-starter-contentful-homepage",
   "author": "Daniel Kalen <d@danielkalen.com>",
   "license": "MIT",
+  "private": true,
   "dependencies": {
     "turbo": "^1.6.3"
   },
