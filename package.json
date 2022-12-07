@@ -9,7 +9,7 @@
     "turbo": "^1.6.3"
   },
   "scripts": {
-    "build": "turbo build"
+    "build": "turbo build --no-cache"
   },
   "workspaces": [
     "./apps/**"
