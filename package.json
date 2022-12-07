@@ -9,9 +9,11 @@
     "turbo": "^1.6.3"
   },
   "scripts": {
-    "build": "turbo build --no-cache"
+    "build": "gatsby build",
+    "build2": "turbo build --no-cache",
+    "postinstall": "sh ./scripts/postinstall.sh"
   },
   "workspaces": [
-    "./apps/**"
+    "apps/*"
   ]
 }
